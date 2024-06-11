@@ -13,17 +13,26 @@ const Future = () => {
           <Row className=" align-items-center">
             <Col lg={6}>
               <div>
-                <h2 className="fw-bold ff-titling fs-48 lh-57 clr-d-blue mb-13 text-center text-lg-start">
+                <h2
+                  data-aos="fade-right"
+                  className="fw-bold ff-titling fs-48 lh-57 clr-d-blue mb-13 text-center text-lg-start"
+                >
                   The Future of{" "}
                   <span className=" d-lg-block"> Car Cleaning</span>
                 </h2>
-                <p className=" fw-normal fs-16 lh-24 clr-d-blue ff-acumin opacity_07 mb-sm-4 mb-3 text-center text-lg-start">
+                <p
+                  data-aos="fade-right"
+                  className=" fw-normal fs-16 lh-24 clr-d-blue ff-acumin opacity_07 mb-sm-4 mb-3 text-center text-lg-start"
+                >
                   No need to be overwhelmed by the thought of harsh chemicals
                   and abrasive cleaning methods. Our dry ice blasting leaves
                   your car spotless, reaching where no cloth can.
                 </p>
                 <div className=" d-flex flex-column mx-auto gap-xl-3 gap-2 max-lg-500 text-center text-lg-start">
-                  <div className=" d-flex justify-content-center justify-content-lg-start gap-3">
+                  <div
+                    data-aos="fade-right"
+                    className=" d-flex justify-content-center justify-content-lg-start gap-3"
+                  >
                     <span className="d-none d-lg-block">
                       <CheckIcon />
                     </span>
@@ -40,7 +49,10 @@ const Future = () => {
                       </p>
                     </div>
                   </div>
-                  <div className=" d-flex justify-content-center justify-content-lg-start gap-3">
+                  <div
+                    data-aos="fade-right"
+                    className=" d-flex justify-content-center justify-content-lg-start gap-3"
+                  >
                     <span className="d-none d-lg-block">
                       <CheckIcon />
                     </span>
@@ -58,7 +70,10 @@ const Future = () => {
                       </p>
                     </div>
                   </div>
-                  <div className=" d-flex justify-content-center justify-content-lg-start gap-3">
+                  <div
+                    data-aos="fade-right"
+                    className=" d-flex justify-content-center justify-content-lg-start gap-3"
+                  >
                     <span className="d-none d-lg-block">
                       <CheckIcon />
                     </span>
@@ -75,7 +90,10 @@ const Future = () => {
                       </p>
                     </div>
                   </div>
-                  <div className=" d-flex justify-content-center justify-content-lg-start gap-3">
+                  <div
+                    data-aos="fade-right"
+                    className=" d-flex justify-content-center justify-content-lg-start gap-3"
+                  >
                     <span className="d-none d-lg-block">
                       <CheckIcon />
                     </span>
@@ -100,7 +118,7 @@ const Future = () => {
               lg={6}
               className=" d-flex justify-content-center justify-content-lg-end mt-lg-0 mt-5 "
             >
-              <div className=" position-relative">
+              <div data-aos="fade-left" className=" position-relative">
                 <img
                   src={WashingCar}
                   className="washing-car w-100"

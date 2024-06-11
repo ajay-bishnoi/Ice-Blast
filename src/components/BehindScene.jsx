@@ -10,7 +10,7 @@ const BehindScene = () => {
     <div className="car-bg-layer pb-254">
       <img src={CloudLayer} alt="CloudLayer" className=" w-100 Cloud-Layer-3" />
       <Container>
-        <div className="max-592 my-36-50 mx-auto">
+        <div data-aos="fade-up" className="max-592 my-36-50 mx-auto">
           <h2 className="fw-bold ff-titling text-center fs-48 lh-57 clr-white mb-12">
             Behind the Scenes{" "}
             <span className=" d-block"> Dry Ice Blasting a Car</span>
@@ -21,7 +21,10 @@ const BehindScene = () => {
             time.
           </p>
         </div>
-        <div className="gray-border mb-40 position-relative">
+        <div
+          data-aos="zoom-out"
+          className="gray-border mb-40 position-relative"
+        >
           <img
             src={MenWashingCar}
             alt="Men-Washing-Car"

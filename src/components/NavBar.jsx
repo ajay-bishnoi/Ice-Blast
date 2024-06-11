@@ -33,7 +33,7 @@ const NavBar = () => {
   };
   return (
     <>
-      <Nav>
+      <Nav data-aos="fade-down">
         <Container>
           <ContactUs />
         </Container>
@@ -46,7 +46,7 @@ const NavBar = () => {
             >
               <li>
                 <a
-                  onClick={handleClick}
+                  onClick={() => setShow(!show)}
                   className=" fw-bold ff-acumin fs-16 lh-19 clr-gray nav-items"
                   href="#Home"
                 >
@@ -55,16 +55,16 @@ const NavBar = () => {
               </li>
               <li>
                 <a
-                  onClick={handleClick}
+                  onClick={() => setShow(!show)}
                   className=" fw-bold ff-acumin fs-16 lh-19 clr-gray nav-items"
-                  href="#Aboutus"
+                  href={"#Aboutus"}
                 >
                   About us
                 </a>
               </li>
               <li>
                 <a
-                  onClick={handleClick}
+                  onClick={() => setShow(!show)}
                   className=" fw-bold ff-acumin fs-16 lh-19 clr-gray nav-items"
                   href="#Services"
                 >
@@ -73,7 +73,7 @@ const NavBar = () => {
               </li>
               <li>
                 <a
-                  onClick={handleClick}
+                  onClick={() => setShow(!show)}
                   className=" fw-bold ff-acumin fs-16 lh-19 clr-gray nav-items"
                   href="#Pricing"
                 >
@@ -82,7 +82,7 @@ const NavBar = () => {
               </li>
               <li>
                 <a
-                  onClick={handleClick}
+                  onClick={() => setShow(!show)}
                   className=" fw-bold ff-acumin fs-16 lh-19 clr-gray nav-items"
                   href="#Blog"
                 >
@@ -91,7 +91,7 @@ const NavBar = () => {
               </li>
               <li>
                 <a
-                  onClick={handleClick}
+                  onClick={() => setShow(!show)}
                   className=" fw-bold ff-acumin fs-16 lh-19 clr-gray nav-items"
                   href="#Contactus"
                 >

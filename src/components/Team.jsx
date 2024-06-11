@@ -15,7 +15,12 @@ const Team = () => {
             className=" position-relative d-flex justify-content-center justify-content-lg-start"
           >
             <div className="menborder">
-              <img src={MenPic} alt="men-pic" className=" w-100 h-100" />
+              <img
+                data-aos="flip-right"
+                src={MenPic}
+                alt="men-pic"
+                className=" w-100 h-100"
+              />
             </div>
             <img src={GoldCloud} alt="gold-cloud" className="gold-cloud" />
           </Col>
@@ -25,13 +30,22 @@ const Team = () => {
             className=" d-flex justify-content-lg-end justify-content-center mt-lg-0 mt-5"
           >
             <div className="max-613 w-100 text-center text-lg-start">
-              <h4 className="mb-10 ff-titling fw-bold fs-48 lh-57 clr-d-blue">
+              <h4
+                data-aos="flip-up"
+                className="mb-10 ff-titling fw-bold fs-48 lh-57 clr-d-blue"
+              >
                 Meet The Team
               </h4>
-              <h5 className=" ff-acumin fw-bold fs-18 lh-21 clr-d-blue mb-3">
+              <h5
+                data-aos="flip-up"
+                className=" ff-acumin fw-bold fs-18 lh-21 clr-d-blue mb-3"
+              >
                 Oxfordshire's Dry Ice Car Cleaning Specialists
               </h5>
-              <p className="mb-0 fw-normal fs-16 lh-24 clr-d-blue opacity_07 ff-acumin">
+              <p
+                data-aos="flip-up"
+                className="mb-0 fw-normal fs-16 lh-24 clr-d-blue opacity_07 ff-acumin"
+              >
                 We’re shaking up the car cleaning scene with Dry Ice Blasting.
                 From our buzzing unit in Oxfordshire, we're not just a team -
                 we’re a Crew of car enthusiasts, expert restorers, and skilled

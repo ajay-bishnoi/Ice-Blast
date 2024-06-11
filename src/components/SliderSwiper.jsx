@@ -15,7 +15,7 @@ import { Next } from "react-bootstrap/esm/PageItem";
 
 const SliderSwiper = () => {
   return (
-    <div className=" bg-orange">
+    <div id="Blog" className=" bg-orange">
       <img src={Cloud1} alt="cloud-layer " className=" w-100" />
       <Container className="mb-43 position-relative">
         <h2 className="mb-57 ff-titling fw-bold fs-48 lh-57 text-center clr-white">

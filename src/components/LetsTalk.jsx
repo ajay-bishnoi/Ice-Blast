@@ -56,8 +56,8 @@ const LetsTalk = () => {
         className=" w-100 Cloud-Layer-2"
       />
       <Container>
-        <div className=" w-100 -mt-110">
-          <div className=" mx-auto max-760">
+        <div id="Services" className=" w-100 -mt-110">
+          <div data-aos="fade-up" className=" mx-auto max-760">
             <h2 className="fw-bold ff-titling text-center fs-48 lh-57 clr-d-blue mb-14">
               Let's Talk Numbers
             </h2>
@@ -74,6 +74,7 @@ const LetsTalk = () => {
             {accordionData.map((item, index) => {
               return (
                 <div
+                  data-aos="flip-up"
                   key={index}
                   className={`accordion_item d-flex ${item.color} flex-column flex-lg-row gap-40 justify-content-between align-items-start p-32`}
                 >
@@ -112,7 +113,7 @@ const LetsTalk = () => {
           </div>
           {/*  */}
           <div className="mt-40 w-100 Quote">
-            <div className="max-770 mx-auto text-center">
+            <div data-aos="zoom-in" className="max-770 mx-auto text-center">
               <h3 className=" fw-bold fs-32 lh-44 clr-d-blue ff-titling mb-sm-3 mb-2">
                 Get an Instant Quote Today
               </h3>

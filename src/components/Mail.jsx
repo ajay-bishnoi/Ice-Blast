@@ -7,13 +7,19 @@ import { Container } from "react-bootstrap";
 const Mail = () => {
   const [show, setShow] = useState(true);
   return (
-    <div className="pt-49">
+    <div id="Contactus" className="pt-49">
       <Container>
         <div className="mailCard mx-auto d-flex flex-column align-items-center position-relative ">
-          <h2 className="fw-bold text-center fs-48 lh-57 ff-titling clr-white mb-2">
+          <h2
+            data-aos="flip-up"
+            className="fw-bold text-center fs-48 lh-57 ff-titling clr-white mb-2"
+          >
             Join Our Mailing List
           </h2>
-          <p className="ff-acumin fw-normal fs-16 lh-24 text-center clr-white opacity_09 mb-23">
+          <p
+            data-aos="flip-down"
+            className="ff-acumin fw-normal fs-16 lh-24 text-center clr-white opacity_09 mb-23"
+          >
             Get news, videos and deals straight to your inbox.
           </p>
           <div className=" d-flex align-items-center justify-content-between mailBox bg-white ">

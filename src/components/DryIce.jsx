@@ -9,15 +9,21 @@ import Materials from "../assets/img/svg/various-materials.svg";
 
 const DryIce = () => {
   return (
-    <div className="-mt-95 pb-168 position-relative z-3 ">
+    <div id="Pricing" className="-mt-95 pb-168 position-relative z-3 ">
       <Container>
-        <h2 className="fw-bold ff-titling text-center fs-48 lh-57 clr-d-blue  mb-lg-5 mb-4">
+        <h2
+          data-aos="zoom-in"
+          className="fw-bold ff-titling text-center fs-48 lh-57 clr-d-blue  mb-lg-5 mb-4"
+        >
           Why Choose Dry Ice Blasting for Your Car?
         </h2>
         <Row className=" align-items-center">
           <Col lg={6}>
             <div className=" d-flex flex-column gap-28 text-center text-lg-start max-lg-500">
-              <div className=" d-flex flex-column flex-lg-row align-items-center gap-12">
+              <div
+                data-aos="fade-right"
+                className=" d-flex flex-column flex-lg-row align-items-center gap-12"
+              >
                 <img src={EffectiveCleaning} alt="Effective-Cleaning" />
                 <div>
                   <h5 className=" fw-bold clr-d-blue fs-16 lh-24 ff-acumin mb-1">
@@ -29,7 +35,10 @@ const DryIce = () => {
                   </p>
                 </div>
               </div>
-              <div className=" d-flex flex-column flex-lg-row align-items-center gap-12">
+              <div
+                data-aos="fade-right"
+                className=" d-flex flex-column flex-lg-row align-items-center gap-12"
+              >
                 <img src={NONabrasive} alt="Non-Abrasive" />
                 <div>
                   <h5 className=" fw-bold clr-d-blue fs-16 lh-24 ff-acumin mb-1">
@@ -41,7 +50,10 @@ const DryIce = () => {
                   </p>
                 </div>
               </div>
-              <div className=" d-flex flex-column flex-lg-row align-items-center gap-12">
+              <div
+                data-aos="fade-right"
+                className=" d-flex flex-column flex-lg-row align-items-center gap-12"
+              >
                 <img src={NOresidue} alt="No-Residue" />
                 <div>
                   <h5 className=" fw-bold clr-d-blue fs-16 lh-24 ff-acumin mb-1">
@@ -53,7 +65,10 @@ const DryIce = () => {
                   </p>
                 </div>
               </div>
-              <div className=" d-flex flex-column flex-lg-row align-items-center gap-12">
+              <div
+                data-aos="fade-right"
+                className=" d-flex flex-column flex-lg-row align-items-center gap-12"
+              >
                 <img src={Materials} alt="Safe-for-Various-Materials" />
                 <div>
                   <h5 className=" fw-bold clr-d-blue fs-16 lh-24 ff-acumin mb-1">
@@ -68,7 +83,7 @@ const DryIce = () => {
             </div>
           </Col>
           <Col lg={6} className=" d-flex justify-content-center mt-5 mt-lg-0">
-            <div className="position-relative   ">
+            <div data-aos="fade-left" className="position-relative   ">
               <img
                 src={IceblastingCar}
                 alt="ice-blasting-car"

@@ -9,7 +9,7 @@ const Blast = () => {
     <div>
       <img src={BlastCloud1} alt="cloud-layer" className=" w-100 BlastCloud1" />
       <Container>
-        <div className="max-966 text-center  mx-auto">
+        <div data-aos="zoom-in" className="max-966 text-center  mx-auto">
           <h2 className="fw-bold text-center fs-48 lh-57 ff-titling clr-d-blue mb-sm-3 mb-2">
             Blast The Grime and Bring Back The Prime
           </h2>

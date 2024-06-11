@@ -19,10 +19,21 @@ import Blast from "./components/Blast";
 import Faq from "./components/Faq";
 import Team from "./components/Team";
 import SliderSwiper from "./components/SliderSwiper";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    AOS.init({
+      disable: "phone",
+      once: "true",
+      duration: 700,
+      easing: "linear",
+    });
+  }, []);
   return (
     <div className=" overflow-hidden">
-      <header className="header-bg min-vh-100 d-flex flex-column justify-content-center">
+      <header className="header-bg  min-vh-100 d-flex flex-column justify-content-center">
         <NavBar />
         <Hero />
       </header>
