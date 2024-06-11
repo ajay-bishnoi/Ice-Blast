@@ -1,0 +1,879 @@
+:root {
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-20: 20px;
+  --fs-24: 24px;
+  --fs-28: 28px;
+  --fs-32: 32px;
+  --fs-48: 48px;
+  --fs-96: 96px;
+
+  /* clr */
+  --white: #ffffff;
+  --black: #000000;
+  --orange: #fa6a00;
+  --gray: #636363;
+  --gray2: #ffffff80;
+  --d-blue: #101a2e;
+  --l-blue: #6ee7ff12;
+  --l-purple: #f3f3f4;
+  --ll-pink: #fdf9f2;
+  --l-pink: #fb842c1a;
+}
+/*--------------------------- clr --------------- */
+.clr-gray {
+  color: var(--gray);
+}
+.clr-d-blue {
+  color: var(--d-blue);
+}
+.clr-black {
+  color: var(--black);
+}
+.clr-white {
+  color: var(--white);
+}
+/*  */
+.bg-black {
+  background-color: var(--black);
+}
+.bg-d-blue {
+  background-color: var(--d-blue);
+}
+.bg-l-blue {
+  background-color: var(--l-blue);
+}
+.bg-l-purple {
+  background-color: var(--l-purple);
+}
+.bg-ll-pink {
+  background-color: var(--ll-pink);
+}
+.bg-l-pink {
+  background-color: var(--l-pink);
+}
+.bg-white {
+  background-color: var(--white);
+}
+.bg-orange {
+  background-color: var(--orange);
+}
+
+/* ------------------clr gradient--------------- */
+.clr-gradient {
+  background: var(--gold-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* -------------------------font-size----------- */
+
+.fs-14 {
+  font-size: var(--fs-14);
+}
+.fs-16 {
+  font-size: var(--fs-16);
+}
+.fs-18 {
+  font-size: var(--fs-18);
+}
+.fs-20 {
+  font-size: var(--fs-20);
+}
+.fs-24 {
+  font-size: var(--fs-24);
+}
+.fs-28 {
+  font-size: var(--fs-28);
+}
+.fs-32 {
+  font-size: var(--fs-32);
+}
+.fs-48 {
+  font-size: var(--fs-48);
+}
+.fs-96 {
+  font-size: var(--fs-96);
+}
+
+/* -------------------------line-height-------------- */
+
+.lh-14 {
+  line-height: 14px;
+}
+.lh-19 {
+  line-height: 19px;
+}
+.lh-21 {
+  line-height: 21px;
+}
+.lh-24 {
+  line-height: 24px;
+}
+.lh-28 {
+  line-height: 28px;
+}
+.lh-30 {
+  line-height: 30px;
+}
+.lh-33 {
+  line-height: 33px;
+}
+.lh-36 {
+  line-height: 36px;
+}
+.lh-39 {
+  line-height: 39px;
+}
+.lh-44 {
+  line-height: 44px;
+}
+.lh-57 {
+  line-height: 57px;
+}
+.lh-115 {
+  line-height: 115px;
+}
+/* ----------------------------------responsive----------------- */
+
+@media (min-width: 1600px) {
+  .max-1230 {
+    max-width: 1410px;
+  }
+  .DryIce1 {
+    min-width: unset;
+    width: 100%;
+    height: 439px;
+    position: unset;
+  }
+  .DryIce2 {
+    min-width: unset;
+    height: 510px;
+    width: 100%;
+    position: unset;
+  }
+  .py-117 {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
+  .max-558 {
+    max-width: 558px;
+  }
+  .cloud-layer {
+    height: 300px;
+  }
+  .gold-cloud {
+    left: -27%;
+  }
+  .py-153 {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1599.99px) {
+  .container {
+    max-width: 1140px !important;
+  }
+  .max-1230 {
+    max-width: 1230px;
+  }
+}
+@media (max-width: 1400px) {
+  :root {
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-24: 24px;
+    --fs-28: 28px;
+    --fs-32: 32px;
+    --fs-48: 44px;
+    --fs-96: 92px;
+  }
+  .max-1230 {
+    max-width: 1230px;
+  }
+  .lh-115 {
+    line-height: 105px;
+  }
+  .lh-57 {
+    line-height: 52px;
+  }
+  .DryIce1 {
+    min-width: unset;
+    width: 50% !important;
+  }
+  .DryIce2 {
+    min-width: unset;
+    width: 45%;
+    height: 470px;
+    top: 38%;
+  }
+  .mb-20 {
+    margin-bottom: 18px;
+  }
+  .Cloudlayer2 {
+    height: 340px;
+  }
+  .pb-168 {
+    padding-bottom: 130px;
+  }
+  .Cloud-Layer-3 {
+    height: 242px;
+    margin-top: -47px;
+  }
+  .-mt-95 {
+    margin-top: -50px;
+  }
+  .Cloud-Layer-2 {
+    height: 350px;
+    margin-top: -180px;
+  }
+  .pb-254 {
+    padding-bottom: 200px;
+  }
+  .mb-50 {
+    margin-bottom: 38px;
+  }
+  .py-50-138 {
+    padding: 50px 0 120px;
+  }
+  .setMap {
+    height: 400px;
+  }
+  .BlastCloud1 {
+    height: 395px;
+  }
+  .BlastCloud2 {
+    height: 362px;
+  }
+}
+
+@media (max-width: 1199.5px) {
+  :root {
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-24: 24px;
+    --fs-28: 28px;
+    --fs-32: 32px;
+    --fs-48: 42px;
+    --fs-96: 92px;
+  }
+  .max-1230 {
+    max-width: 1060px;
+  }
+  .washing-car {
+    height: 482px;
+  }
+  .cloud-layer {
+    height: 166px;
+  }
+  .lh-24 {
+    line-height: 22px;
+  }
+  .DryIce2 {
+    min-width: unset;
+    width: 45%;
+    height: 410px;
+    top: 40%;
+  }
+  .DryIce1 {
+    height: 420px;
+    top: 7.8%;
+  }
+  .py-153 {
+    padding-top: 110px !important;
+    padding-bottom: 100px !important;
+  }
+  .Cloudlayer2 {
+    height: 260px;
+  }
+  .-mt-95 {
+    margin-top: -50px;
+  }
+  .IceblastingCar {
+    height: 435px;
+  }
+  .pb-168 {
+    padding-bottom: 110px;
+  }
+  .Cloud-Layer-3 {
+    height: 161px;
+    margin-top: -25px;
+  }
+  .my-36-50 {
+    margin: 22px 0 42px;
+  }
+  .MenWashingCar {
+    height: 550px;
+    border-radius: 20px;
+  }
+  .Cloud-Layer-2 {
+    height: 280px;
+    margin-top: -180px;
+  }
+  .-mt-110 {
+    margin-top: -80px;
+  }
+  .accordion_body {
+    max-width: 424px;
+  }
+  .mb-50 {
+    margin-bottom: 34px;
+  }
+  .py-50-138 {
+    padding: 50px 0 110px;
+  }
+  .BlastCloud2 {
+    height: 310px;
+  }
+  .BlastCloud1 {
+    height: 355px;
+  }
+  .cloud5 {
+    height: 320px;
+  }
+  .swiper-btn-next {
+    position: absolute;
+    top: unset;
+    bottom: -18%;
+    right: 43%;
+    transform: unset;
+  }
+  .swiper-btn-prev {
+    position: absolute;
+    top: unset;
+    bottom: -18%;
+    left: 43%;
+    transform: unset;
+  }
+}
+
+@media (max-width: 991.5px) {
+  :root {
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-24: 24px;
+    --fs-28: 26px;
+    --fs-32: 32px;
+    --fs-48: 38px;
+    --fs-96: 65px;
+  }
+
+  .lh-115 {
+    line-height: 82px;
+  }
+  .mb-40 {
+    margin-bottom: 32px;
+  }
+  .mt-40 {
+    margin-top: 32px;
+  }
+  .menu {
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+  }
+  .mobile-view {
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    z-index: 90;
+    transition: all 300ms linear;
+    background-color: var(--white);
+  }
+  .overflow-hide {
+    overflow: hidden;
+  }
+
+  .menu span:nth-child(1) {
+    width: 40px;
+    height: 4px;
+    display: block;
+    border-radius: 5px;
+    background-color: var(--orange);
+    transition: all 300ms linear;
+  }
+  .menu span:nth-child(2) {
+    width: 40px;
+    height: 4px;
+    display: block;
+    border-radius: 5px;
+    background-color: var(--orange);
+    transition: all 300ms linear;
+  }
+  .menu span:nth-child(3) {
+    width: 40px;
+    height: 4px;
+    display: block;
+    border-radius: 5px;
+    background-color: var(--orange);
+    transition: all 300ms linear;
+  }
+  .cross span:nth-child(1) {
+    transition: all 300ms linear;
+    transform: rotate(44deg) translateY(13px) translateX(2px);
+  }
+  .cross span:nth-child(2) {
+    transform: translateX(-100%);
+    transition: all 300ms linear;
+    opacity: 0;
+  }
+  .cross span:nth-child(3) {
+    transition: all 300ms linear;
+    transform: rotate(-45deg) translateY(-14px) translateX(4px);
+  }
+  .container {
+    max-width: 760px !important;
+  }
+  .max-1230 {
+    max-width: 850px;
+  }
+  .mt-80 {
+    margin-top: 35px;
+  }
+  .Cloudlayer2 {
+    height: 175px;
+  }
+  .washing-car {
+    height: 416px;
+  }
+  .lh-57 {
+    line-height: 44px;
+  }
+  .cloud-layer {
+    height: 132px;
+  }
+  .pt-82 {
+    padding-top: 70px;
+  }
+  .py-50-138 {
+    padding: 50px 0 90px;
+  }
+  .DryIce2 {
+    width: 100%;
+    height: 420px;
+    position: relative;
+    left: -17.5%;
+    top: 0;
+  }
+  .DryIce1 {
+    position: relative;
+    width: 100% !important;
+    height: 440px;
+    top: 0;
+    right: -17.5%;
+  }
+  .cloud5 {
+    height: 255px;
+  }
+  .-mt-63 {
+    margin-top: -103px;
+  }
+  .py-153 {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+  .py-117 {
+    padding-top: 40px !important;
+    padding-bottom: 0px !important;
+  }
+  .gap-28 {
+    gap: 22px;
+  }
+  .-mt-95 {
+    margin-top: -20px;
+  }
+  .MenWashingCar {
+    height: 428px;
+    border-radius: 20px;
+  }
+  .gap-12 {
+    gap: 8px;
+  }
+  .max-lg-500 {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .gap-40 {
+    gap: 8px;
+  }
+  .accordion_body {
+    max-width: unset;
+    width: 100%;
+  }
+  .p-32 {
+    padding: 26px;
+  }
+  .BlastCloud1 {
+    height: 300px;
+  }
+  .BlastCloud2 {
+    height: 270px;
+  }
+  .comentBox {
+    border-radius: 12px;
+    height: 128px;
+  }
+  .typeSomething {
+    border-radius: 14px;
+    padding: 16px 24px 32px;
+  }
+  .accordion_item-2 {
+    padding: 22px 24px 24px;
+  }
+  .gap-20 {
+    gap: 16px;
+  }
+  .gold-cloud {
+    left: 22px;
+    top: -34%;
+    max-width: 536px;
+    height: 676px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-24: 24px;
+    --fs-28: 20px;
+    --fs-32: 32px;
+    --fs-48: 35px;
+    --fs-96: 65px;
+  }
+  .max-730 {
+    max-width: 570px;
+  }
+  .pt-82 {
+    padding-top: 60px;
+  }
+  .lh-57 {
+    line-height: 38px;
+  }
+  .washing-car {
+    height: 350px;
+  }
+  .mt-80 {
+    margin-top: 26px;
+  }
+  .cloud-layer {
+    height: 114px;
+  }
+  .mailCard {
+    border-radius: 25px;
+  }
+  .lh-39 {
+    line-height: 30px;
+  }
+  .menborder {
+    max-width: 360px;
+    height: 335px;
+  }
+  .p-32 {
+    padding: 19px 16px;
+  }
+  .accordion_item {
+    border-radius: 10px;
+  }
+  .mb-06 {
+    margin-bottom: 4px;
+  }
+  .DryIce1 {
+    width: 90% !important;
+    height: 332px;
+    top: 0;
+    right: -5%;
+  }
+  .DryIce2 {
+    width: 100%;
+    height: 392px;
+    position: relative;
+    left: -17.5%;
+    top: 0;
+  }
+  .Cloudlayer2 {
+    height: 165px;
+  }
+  .Cloud-Layer-3 {
+    height: 138px;
+    margin-top: -25px;
+  }
+  .pb-168 {
+    padding-bottom: 90px;
+  }
+  .MenWashingCar {
+    height: 360px;
+  }
+  .Cloud-Layer-2 {
+    height: 229px;
+    margin-top: -181px;
+  }
+  .-mt-110 {
+    margin-top: -60px;
+  }
+  .my-57-48 {
+    margin-top: 48px !important;
+    margin-bottom: 38px !important;
+  }
+  .py-50-138 {
+    padding: 50px 0 80px;
+  }
+  .BlastCloud2 {
+    height: 210px;
+    margin-top: -60px;
+  }
+  .BlastCloud1 {
+    height: 230px;
+    margin-bottom: -75px;
+  }
+  .accordion_item-2 {
+    padding: 18px 18px 22px;
+  }
+  .typeSomething {
+    border-radius: 14px;
+    padding: 16px 18px 24px;
+  }
+  .gold-cloud {
+    left: 45%;
+    top: -34%;
+    transform: translate(-55%);
+    max-width: 435px;
+    height: 530px;
+  }
+  .-mt-63 {
+    margin-top: -135px;
+  }
+  .cloud5 {
+    height: 210px;
+  }
+  .swiper-btn-next {
+    position: absolute;
+    top: unset;
+    bottom: -12%;
+    right: 40%;
+    transform: unset;
+  }
+  .swiper-btn-prev {
+    position: absolute;
+    top: unset;
+    bottom: -12%;
+    left: 40%;
+    transform: unset;
+  }
+}
+
+@media (max-width: 576px) {
+  :root {
+    --fs-14: 14px;
+    --fs-16: 14px;
+    --fs-18: 16px;
+    --fs-20: 16px;
+    --fs-24: 18px;
+    --fs-28: 18px;
+    --fs-32: 26px;
+    --fs-48: 28px;
+    --fs-96: 32px;
+  }
+  .menu {
+    scale: 0.8;
+  }
+  .scale09 {
+    scale: 0.9;
+  }
+  .mb-13 {
+    margin-bottom: 8px;
+  }
+  .lh-28 {
+    line-height: 24px;
+  }
+  .lh-39 {
+    line-height: 26px;
+  }
+  .gap-20 {
+    gap: 12px;
+  }
+  .accordion_item-2 {
+    padding: 16px 13px 18px;
+  }
+  .menborder {
+    max-width: 305px;
+    height: 280px;
+  }
+  .typeSomething {
+    border-radius: 14px;
+    padding: 16px 13px 24px;
+  }
+  .lh-44 {
+    line-height: 36px;
+  }
+  .lh-24 {
+    line-height: 22px;
+  }
+  .Quote {
+    border: 4px solid #fb842cb2;
+    box-shadow: 0px 0px 11.2px 0px #fa6a00cc;
+    padding: 26px 32px;
+  }
+  .lh-33 {
+    line-height: 26px;
+  }
+  .p-32 {
+    padding: 16px;
+  }
+  .lh-36 {
+    line-height: 30px;
+  }
+  .mb-06 {
+    margin-bottom: 6px;
+  }
+  .nav-p-4-45 {
+    padding: 4px 10px;
+  }
+  .pt-82 {
+    padding-top: 50px;
+  }
+  .lh-115 {
+    line-height: 40px;
+  }
+
+  .my-14 {
+    margin: 12px 0;
+  }
+  .lh-30 {
+    line-height: 24px;
+  }
+  .Cloud-Layer-2 {
+    height: 152px;
+    margin-top: -182px;
+  }
+  .mb-40 {
+    margin-bottom: 16px;
+  }
+  .mt-40 {
+    margin-top: 34px;
+  }
+  .hero-gray-box {
+    gap: 14px;
+    border-radius: 10px;
+    padding: 12px 12px;
+  }
+  .comonbtn {
+    padding: 14px;
+  }
+  .washing-car {
+    height: 290px;
+  }
+  .playIcon {
+    scale: 0.8;
+  }
+  .mt-80 {
+    margin-top: 22px;
+  }
+  .mb-20 {
+    margin-bottom: 18px;
+  }
+  .py-117 {
+    padding-top: 0px !important;
+  }
+  .cloud-layer {
+    height: 72px;
+  }
+  .DryIce1 {
+    height: unset;
+  }
+  .DryIce2 {
+    height: unset;
+  }
+  .Cloudlayer2 {
+    height: 160px;
+  }
+  .MenWashingCar {
+    height: unset;
+  }
+  .IceblastingCar {
+    height: 310px;
+  }
+  .Cloud-Layer-3 {
+    height: 95px;
+    margin-top: -16px;
+  }
+  .pb-168 {
+    padding-bottom: 60px;
+  }
+  .my-57-48 {
+    margin-top: 32px !important;
+    margin-bottom: 32px !important;
+  }
+  .gap-18 {
+    gap: 12px;
+  }
+  .py-38-25 {
+    padding: 12px 0 24px;
+  }
+  .py-50-138 {
+    padding: 50px 0 60px;
+  }
+  .mailBox {
+    min-width: 285px;
+  }
+  .mb-23 {
+    margin-bottom: 20px;
+  }
+  .setMap {
+    height: 343px;
+  }
+
+  .BlastCloud1 {
+    height: 140px;
+    margin-bottom: -45px;
+  }
+  .BlastCloud2 {
+    height: 125px;
+    margin-top: -22px;
+  }
+  .mailCard {
+    background-color: var(--d-blue);
+    border-radius: 12px;
+    padding: 60px 31px 35px;
+  }
+  .gold-cloud {
+    left: 42%;
+    top: -34%;
+    transform: translate(-58%);
+    max-width: 324px;
+    height: 445px;
+  }
+  .cloud5 {
+    height: 130px;
+  }
+  .mb-57 {
+    margin-bottom: 34px;
+  }
+  .swiper-btn-prev {
+    position: absolute;
+    top: unset;
+    bottom: -17%;
+    left: 36%;
+    transform: unset;
+  }
+  .swiper-btn-next {
+    position: absolute;
+    top: unset;
+    bottom: -17%;
+    right: 36%;
+    transform: unset;
+  }
+}
