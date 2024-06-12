@@ -33,7 +33,7 @@ const NavBar = () => {
   };
   return (
     <>
-      <Nav data-aos="fade-down">
+      <Nav >
         <Container>
           <ContactUs />
         </Container>

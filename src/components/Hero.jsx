@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div id="Home" className=" flex-grow-1 d-flex align-items-center">
       <Container>
-        <div data-aos="zoom-in" className="max-730 w-100  text-center mx-auto">
+        <div className="max-730 w-100  text-center mx-auto">
           <h1 className="ff-titling fw-bold fs-96 lh-115 clr-white mb-3">
             Automotive Dry Ice Cleaning
           </h1>
