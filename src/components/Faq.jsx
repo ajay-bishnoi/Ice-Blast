@@ -54,10 +54,7 @@ const Faq = () => {
   return (
     <div id="Aboutus" className="py-45-64">
       <Container>
-        <h2
-          data-aos="fade-down"
-          className="fw-bold text-center fs-48 lh-57 ff-titling clr-d-blue mb-sm-5 mb-4"
-        >
+        <h2 className="fw-bold text-center fs-48 lh-57 ff-titling clr-d-blue mb-sm-5 mb-4">
           Still Unsure? Check Out These FAQs
         </h2>
         {/* accordion */}
@@ -65,7 +62,6 @@ const Faq = () => {
           {accordionData.map((item, index) => {
             return (
               <div
-                data-aos="flip-up"
                 key={index}
                 className={`accordion_item-2 d-flex ${
                   openAccordion === index ? "bg-d-blue" : "bg-l-purple "

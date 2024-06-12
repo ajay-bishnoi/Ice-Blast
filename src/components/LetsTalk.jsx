@@ -74,7 +74,6 @@ const LetsTalk = () => {
             {accordionData.map((item, index) => {
               return (
                 <div
-                  data-aos="flip-up"
                   key={index}
                   className={`accordion_item d-flex ${item.color} flex-column flex-lg-row gap-40 justify-content-between align-items-start p-32`}
                 >

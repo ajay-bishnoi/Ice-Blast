@@ -9,16 +9,10 @@ const News = () => {
   return (
     <div className="py-50-138">
       <Container>
-        <h2
-          data-aos="fade-up"
-          className="fw-bold text-center fs-48 lh-57 ff-titling clr-d-blue mb-lg-3 mb-2"
-        >
+        <h2 className="fw-bold text-center fs-48 lh-57 ff-titling clr-d-blue mb-lg-3 mb-2">
           Latest News & Insights
         </h2>
-        <p
-          data-aos="fade-up"
-          className="ff-acumin fw-normal fs-16 lh-24 text-center clr-d-blue opacity_07 mb-50"
-        >
+        <p className="ff-acumin fw-normal fs-16 lh-24 text-center clr-d-blue opacity_07 mb-50">
           Uncover the latest insights and innovation in car care.
         </p>
         <Row className=" justify-content-center">
@@ -27,7 +21,7 @@ const News = () => {
             sm={6}
             className=" d-flex justify-content-center justify-content-xxl-end"
           >
-            <div data-aos="fade-down" className="Latest-Card w-100 pointer">
+            <div className="Latest-Card w-100 pointer">
               <img src={Car1} alt="cleaning-car" className=" w-100 mb-20" />
               <div className="max-323 mx-auto w-100">
                 <h5 className=" fw-semibold fs-16 lh-24 ff-acumin clr-d-blue opacity_08 mb-10">
@@ -45,7 +39,7 @@ const News = () => {
             sm={6}
             className="d-flex justify-content-center end mt-sm-0 mt-4"
           >
-            <div data-aos="fade-up" className="Latest-Card w-100 pointer">
+            <div className="Latest-Card w-100 pointer">
               <img src={Car2} alt="cleaning-car" className=" w-100 mb-20" />
               <div className="max-323 mx-auto w-100">
                 <h5 className=" fw-semibold fs-16 lh-24 ff-acumin clr-d-blue opacity_08 mb-10">
@@ -63,7 +57,7 @@ const News = () => {
             sm={6}
             className="d-flex justify-content-center justify-content-xxl-start mt-md-0 mt-4"
           >
-            <div data-aos="fade-down" className="Latest-Card w-100 pointer">
+            <div className="Latest-Card w-100 pointer">
               <img src={Car3} alt="cleaning-car" className=" w-100 mb-20" />
               <div className="max-323 mx-auto w-100">
                 <h5 className=" fw-semibold fs-16 lh-24 ff-acumin clr-d-blue opacity_08 mb-10">
